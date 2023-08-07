@@ -5,9 +5,8 @@ Clone `PitchFormation Demo`: [`📲 Available here](https://github.com/sageseid/
 
 
 <p align="center">
-  <img width="300" alt="Screenshot 2023-08-07 at 15 59 27" src="https://github.com/sageseid/iOS-Developer-Portfolio/assets/20171941/d4afdaba-8eb2-4463-9f99-0900fffe741b">
+ <img width="300" alt="Screenshot 2023-08-07 at 15 59 27" src="https://github.com/sageseid/PitchFormation/assets/20171941/0aca071c-93fb-47cd-8308-4e847f0ad9eb"> 
  <img width="300" alt="Screenshot 2023-08-02 at 17 20 34" src="https://github.com/sageseid/PitchFormation/assets/20171941/8363a2d3-7fdb-4881-a78f-014d5981987c">
-
 </p>
 
 `PitchFormation` is an IOS Software Development Kit (SDK) that empowers app developers to effortlessly integrate custom soccer/football formations views into their applications. 
