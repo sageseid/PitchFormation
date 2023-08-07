@@ -92,6 +92,12 @@ You can also customize the layout and appearance of the pitch formation using va
 
 Version `1.0.0` of `PitchFormation ` contains a very limited set of features. It could be extended by implementing the following tasks:
 
+- Addition of different Pitch Layouts
+- Player Icon Customisation 
+- Tactics Annotations & Animation Preview
+- Zoom and Pan feature
+- Localization Support
+
 
 ## 💎 Contributing
 
