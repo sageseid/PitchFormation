@@ -1,10 +1,5 @@
 #  💎 PitchFormation
 
-**[NOTE]**  
-If you'd like to see `PitchFormation` in action, check out this demo of `PitchFormation` (see link below).  
-Clone `PitchFormation Demo`: [`📲 Available here](https://github.com/sageseid/PitchFormationDemo))  
-
-
 <p align="center">
     insert image here 
 </p>
@@ -46,7 +41,7 @@ Version `1.0.0` of `PitchFormation ` contains a very limited set of features. It
 
 ## 💎 Contributing
 
-👨🏻‍🔧 Feel free to contribute to `QGrid ` by creating a pull request, following these guidelines:
+👨🏻‍🔧 Feel free to contribute to `PitchFormation` by creating a pull request, following these guidelines:
 
 1. Fork `PitchFormation`
 2. Create your feature branch
