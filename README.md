@@ -26,13 +26,67 @@ Using Xcode 11, go to `File -> Swift Packages -> Add Package Dependency` and ent
 
 #### ✴️ Basic scenario:  
 
+To get started with the SDK, you can follow this basic scenario to create and display a default pitch formation:
+
+```
+// this formation is for a 4-3-3
+let defaultFormation: [[String]] = [
+    ["DefaultGK"],
+    ["DefaultDF", "DefaultDF", "DefaultDF", "DefaultDF"],
+    ["DefaultMF", "DefaultMF", "DefaultMF"],
+    ["DefaultST", "DefaultST", "DefaultST"]
+]
+
+let numbers: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+
+let formationView = Formation(
+    formation: defaultFormation,
+    numbers: numbers
+)
+```
+
+or 
+
+```
+// this formation is for a 3-4-3
+let defaultFormation: [[String]] = [
+    ["DefaultGK"],
+    ["DefaultDF", "DefaultDF", "DefaultDF"],
+    ["DefaultMF", "DefaultMF", "DefaultMF", "DefaultMF"],
+    ["DefaultST", "DefaultST", "DefaultST"]
+]
+
+let numbers: [String] = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+
+let formationView = Formation(
+    formation: defaultFormation,
+    numbers: numbers
+)
+```
+
 
 
 #### ✴️ Customize the default layout configuration:
 
+You can also customize the layout and appearance of the pitch formation using various configuration options. Here's an example of how you can create a customized pitch formation:
 
 
-
+```
+ Formation(
+                formation: [["CustomGK"], ["CustomDF", "CustomDF"], ["CustomMF", "CustomMF", "CustomMF"], ["CustomST"]],
+                numbers: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
+                jerseyNumberColor: .white,
+                jerseyColor: .blue,
+                side: .away,
+                vSpacing: 30,
+                hSpacing: 15,
+                width: 60,
+                height: 60
+            )
+        }
+        .padding()
+        
+ ```       
 
 ## 💎 Roadmap 
 
